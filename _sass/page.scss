@@ -1,0 +1,22 @@
+header {
+  font: 32px serif;
+  color: white;
+  text-align: center;
+  height: 182px;
+  width: 600px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px;
+  }
+}
+body {
+  margin: 0px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}

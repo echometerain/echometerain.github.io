@@ -1,2 +1,6 @@
 title: Rain Blog
 description: Rain Blog
+sass:
+  sass_dir: _sass
+plugins:
+  - jekyll-seo-tag

@@ -1,5 +1,7 @@
 ---
-title: "RAIN BLOG"
-date: 2023-07-27
+title: "Rain Blog"
+date: 1969-12-31 23:59:59
+layout: page
 ---
-RAIN BLOG
+
+Rain Blog
