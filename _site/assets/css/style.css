@@ -1,4 +1,20 @@
-header { font: 32px serif; color: white; text-align: center; height: 182px; width: 600px; display: flex; align-items: flex-start; justify-content: center; }
-header .title { display: flex; flex-direction: column; align-items: flex-start; margin: 0px; }
+@font-face { font-family: libre-baskerville; src: url("{{ site.baseurl }}/assets/fonts/LibreBaskerville-Regular.ttf"); }
+body { margin: 25px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
 
-body { margin: 0px; display: flex; align-items: flex-start; justify-content: center; }
+.content { border-radius: 20px; overflow: hidden; -webkit-box-shadow: -2px -1px 15px 7px rgba(0, 0, 0, 0.5); -moz-box-shadow: -3px -2px 30px 14px rgba(0, 0, 0, 0.425); box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35); background-color: black; }
+
+header { padding-top: 10px; font-size: 24px; font-family: "Libre Baskerville", serif; color: white; text-align: center; height: 187px; width: 617px; display: flex; align-items: flex-start; justify-content: center; }
+header .title { font-weight: 300; background-image: linear-gradient(45deg, #90d6ff, #ffffff); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; -moz-background-clip: text; -moz-text-fill-color: transparent; display: flex; flex-direction: column; align-items: flex-start; margin: 10px; }
+
+#grad { height: 50px; background-size: cover; background-image: linear-gradient(180deg, #fffffc 0%, #c4c4c4 6.25%, #959595 12.5%, #6f6f6f 18.75%, #505050 25%, #393939 31.25%, #272727 37.5%, #191919 43.75%, #101010 50%, #090909 56.25%, #050505 62.5%, #020202 68.75%, #010101 75%, black 81.25%, black 87.5%, black 93.75%, black 100%); }
+
+article { color: white; padding: 10px 10px 10px 10px; }
+@keyframes spin { from { transform: rotateX(0.1turn) rotateY(0turn); }
+  to { transform: rotateX(0.1turn) rotateY(-1turn); } }
+@keyframes un-spin { from { transform: rotateY(0turn); }
+  to { transform: rotateY(1turn); } }
+article #cube { padding-bottom: 50px; margin: auto; position: relative; transform-style: preserve-3d; animation: spin 3s linear infinite; }
+article #cube > div { position: absolute; transform-style: preserve-3d; }
+article #cube > div > div { animation: un-spin 3s linear infinite; }
+
+footer { padding-top: 10px; margin: 0px; display: flex; flex-direction: row; flex-wrap: wrap; max-width: 617px; align-items: center; justify-content: center; }

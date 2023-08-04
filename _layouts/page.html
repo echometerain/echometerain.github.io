@@ -6,6 +6,10 @@
     <meta name="description" content="Rain Blog" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="shortcut icon"
       href="{{ site.baseurl }}/assets/img/favicon.png"
       type="image/png"
@@ -20,27 +24,67 @@
     </style>
   </head>
   <body>
-    <header>
-      <style>
-        header {
-          background-image: url("{{ site.baseurl }}/assets/img/fire.gif");
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
-          background-attachment: local;
-        }
-      </style>
-      <img
-        src="{{ site.baseurl }}/assets/img/skelly_l.gif"
-        width="80px"
-        height="80px"
-      />
-      <h1 class="title">Rain Blog</h1>
-      <img
-        src="{{ site.baseurl }}/assets/img/skelly_r.gif"
-        width="80px"
-        height="80px"
-      />
-    </header>
+    <div class="content">
+      <header>
+        <style>
+          header {
+            background-image: url("{{ site.baseurl }}/assets/img/fire.gif");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: local;
+          }
+        </style>
+        <img
+          src="{{ site.baseurl }}/assets/img/skelly_l.gif"
+          width="80px"
+          height="80px"
+        />
+        <h1 class="title">Rain Blog</h1>
+        <img
+          src="{{ site.baseurl }}/assets/img/skelly_r.gif"
+          width="80px"
+          height="80px"
+        />
+      </header>
+      <div id="grad"></div>
+      <article>
+        <div id="cube" style="width: 40px; height: 80px">
+          <div style="transform: translate3d(0px, 0px, 20px)"><div>R</div></div>
+          <div style="transform: translate3d(40px, 0px, 20px)">
+            <div>A</div>
+          </div>
+          <div style="transform: translate3d(0px, 40px, 20px)">
+            <div>B</div>
+          </div>
+          <div style="transform: translate3d(40px, 40px, 20px)">
+            <div>L</div>
+          </div>
+          <div style="transform: translate3d(0px, 0px, -20px)">
+            <div>N</div>
+          </div>
+          <div style="transform: translate3d(40px, 0px, -20px)">
+            <div>I</div>
+          </div>
+          <div style="transform: translate3d(0px, 40px, -20px)">
+            <div>G</div>
+          </div>
+          <div style="transform: translate3d(40px, 40px, -20px)">
+            <div>O</div>
+          </div>
+        </div>
+      </article>
+      <footer>
+        <img src="{{ site.baseurl }}/assets/badges/antinft.gif" />
+        <img src="{{ site.baseurl }}/assets/badges/aponow.gif" />
+        <img src="{{ site.baseurl }}/assets/badges/b4j.gif" />
+        <img src="{{ site.baseurl }}/assets/badges/banner2.gif" />
+        <img src="{{ site.baseurl }}/assets/badges/bob.gif" />
+        <img src="{{ site.baseurl }}/assets/badges/budgie.gif" />
+        <img src="{{ site.baseurl }}/assets/badges/cc-button.gif" />
+        <img src="{{ site.baseurl }}/assets/badges/chrmevil.gif" />
+        <img src="{{ site.baseurl }}/assets/badges/doingyourmom.gif" />
+      </footer>
+    </div>
   </body>
 </html>
