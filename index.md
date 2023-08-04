@@ -1,7 +1,0 @@
----
-title: "Rain Blog"
-date: 1969-12-31 23:59:59
-layout: page
----
-
-hello!
