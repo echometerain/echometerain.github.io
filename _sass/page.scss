@@ -69,36 +69,6 @@ header {
 article {
   color: white;
   padding: 10px 10px 10px 10px;
-  @keyframes spin {
-    from {
-      transform: rotateX(0.1turn) rotateY(0turn);
-    }
-    to {
-      transform: rotateX(0.1turn) rotateY(-1turn);
-    }
-  }
-  @keyframes un-spin {
-    from {
-      transform: rotateY(0turn);
-    }
-    to {
-      transform: rotateY(1turn);
-    }
-  }
-  #cube {
-    padding-bottom: 50px;
-    margin: auto;
-    position: relative;
-    transform-style: preserve-3d;
-    animation: spin 3s linear infinite;
-  }
-  #cube > div {
-    position: absolute;
-    transform-style: preserve-3d;
-  }
-  #cube > div > div {
-    animation: un-spin 3s linear infinite;
-  }
 }
 footer {
   padding-top: 10px;

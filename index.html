@@ -3,3 +3,60 @@ title: "Rain Blog"
 date: 1969-12-31 23:59:59
 layout: page
 ---
+
+<div id="cube" style="width: 40px; height: 80px">
+  <div style="transform: translate3d(0px, 0px, 20px)"><div>R</div></div>
+  <div style="transform: translate3d(40px, 0px, 20px)">
+    <div>A</div>
+  </div>
+  <div style="transform: translate3d(0px, 40px, 20px)">
+    <div>B</div>
+  </div>
+  <div style="transform: translate3d(40px, 40px, 20px)">
+    <div>L</div>
+  </div>
+  <div style="transform: translate3d(0px, 0px, -20px)">
+    <div>N</div>
+  </div>
+  <div style="transform: translate3d(40px, 0px, -20px)">
+    <div>I</div>
+  </div>
+  <div style="transform: translate3d(0px, 40px, -20px)">
+    <div>G</div>
+  </div>
+  <div style="transform: translate3d(40px, 40px, -20px)">
+    <div>O</div>
+  </div>
+</div>
+<style>
+  @keyframes spin {
+    from {
+      transform: rotateX(0.1turn) rotateY(0turn);
+    }
+    to {
+      transform: rotateX(0.1turn) rotateY(-1turn);
+    }
+  }
+  @keyframes un-spin {
+    from {
+      transform: rotateY(0turn);
+    }
+    to {
+      transform: rotateY(1turn);
+    }
+  }
+  #cube {
+    padding-bottom: 50px;
+    margin: auto;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: spin 3s linear infinite;
+  }
+  #cube > div {
+    position: absolute;
+    transform-style: preserve-3d;
+  }
+  #cube > div > div {
+    animation: un-spin 3s linear infinite;
+  }
+</style>
