@@ -1,35 +1,43 @@
 @font-face {
-  font-family: libre-baskerville;
-  src: url("{{ site.baseurl }}/assets/fonts/LibreBaskerville-Regular.ttf");
+  font-family: "CM";
+  src: url("/assets/fonts/cmunrm.ttf");
 }
+@font-face {
+  font-family: "CM Bold";
+  src: url("/assets/fonts/cmunbx.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "CM Italics";
+  src: url("/assets/fonts/cmunbx.ttf");
+}
+
 body {
   margin: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-.content {
-  border-radius: 20px;
-  overflow: hidden;
-  -webkit-box-shadow: -2px -1px 15px 7px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: -3px -2px 30px 14px rgba(0, 0, 0, 0.425);
-  box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35);
-  background-color: black;
+  #content {
+    border-radius: 20px;
+    overflow: hidden;
+    -webkit-box-shadow: -2px -1px 15px 7px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(0, 0, 0, 0.425);
+    box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35);
+    background-color: black;
+  }
 }
 header {
   padding-top: 10px;
   font-size: 24px;
-  font-family: "Libre Baskerville", serif;
-  color: white;
   text-align: center;
   height: 187px;
   width: 617px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  .title {
-    font-weight: 300;
+  #title {
+    font-family: "CM Bold", serif;
     background-image: linear-gradient(45deg, #90d6ff, #ffffff);
     background-clip: text;
     -webkit-background-clip: text;
@@ -47,6 +55,7 @@ header {
 }
 #grad {
   height: 50px;
+  margin-bottom: -50px;
   background-size: cover;
   background-image: linear-gradient(
     180deg,
@@ -70,11 +79,30 @@ header {
   );
 }
 article {
+  font-family: "CM", serif;
+  font-weight: bold;
   color: white;
-  padding: 10px 10px 10px 10px;
+  word-wrap: break-word;
+  padding: 15px;
+  h1 {
+    text-align: center;
+  }
+  em {
+    font-family: "CM Italics", serif;
+  }
+  strong {
+    font-family: "CM Bold", serif;
+  }
+  a {
+    background-image: linear-gradient(45deg, #90d6ff, #ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
 }
 footer {
-  padding-top: 10px;
   margin: 0px;
   display: flex;
   flex-direction: row;

@@ -4,46 +4,34 @@
     <meta charset="utf-8" />
     <title>{{page.title}}</title>
     <meta name="description" content="Rain Blog" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="shortcut icon"
-      href="{{ site.baseurl }}/assets/img/favicon.png"
-      type="image/png"
-    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/png" />
+  </head>
+  <body>
     <style>
       body {
-        background-image: url("{{ site.baseurl }}/assets/img/bg.jpg");
+        background-image: url("/assets/img/bg.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
       }
     </style>
-  </head>
-  <body>
-    <div class="content">
+    <div id="content">
       <header>
         <style>
           header {
-            background-image: url("{{ site.baseurl }}/assets/img/fire.gif");
+            background-image: url("/assets/img/fire.gif");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
             background-attachment: local;
           }
         </style>
-        <img
-          src="{{ site.baseurl }}/assets/img/skelly_l.gif"
-          width="80px"
-          height="80px"
-        />
-        <h1 class="title">Rain Blog</h1>
+        <img src="/assets/img/skelly_l.gif" width="80px" height="80px" />
+        <h1 id="title"><a href="/">Rain Blog</a></h1>
         <img
           id="flip_right"
-          src="{{ site.baseurl }}/assets/img/skelly_l.gif"
+          src="/assets/img/skelly_l.gif"
           width="80px"
           height="80px"
         />
@@ -51,20 +39,24 @@
       <div id="grad"></div>
       <article>{{ content }}</article>
       <footer>
-        <img src="{{ site.baseurl }}/assets/badges/antinft.gif" />
-        <img src="{{ site.baseurl }}/assets/badges/aponow.gif" />
-        <img src="{{ site.baseurl }}/assets/badges/b4j.gif" />
-        <img src="{{ site.baseurl }}/assets/badges/banner2.gif" />
-        <img src="{{ site.baseurl }}/assets/badges/bob.gif" />
-        <img src="{{ site.baseurl }}/assets/badges/budgie.gif" />
-        <img src="{{ site.baseurl }}/assets/badges/cc-button.gif" />
-        <img src="{{ site.baseurl }}/assets/badges/sun.gif" />
-        <img src="{{ site.baseurl }}/assets/badges/thevoid.gif" />
-        <img src="{{ site.baseurl }}/assets/badges/transnow2.gif" />
-        <img src="{{ site.baseurl }}/assets/badges/chrmevil.gif" />
-        <img src="{{ site.baseurl }}/assets/badges/doingyourmom.gif" />
-        <img src="{{ site.baseurl }}/assets/badges/killmenow.gif" />
-        <img src="{{ site.baseurl }}/assets/badges/osamasux.gif" />
+        <img src="/assets/badges/antinft.gif" />
+        <img src="/assets/badges/aponow.gif" />
+        <img src="/assets/badges/budgie.gif" />
+        <img src="/assets/badges/banner2.gif" />
+        <img src="/assets/badges/bob.gif" />
+        <img src="/assets/badges/alienow.gif" />
+        <img src="/assets/badges/cc-button.gif" />
+        <img src="/assets/badges/sun.gif" />
+        <img src="/assets/badges/thevoid.gif" />
+        <img src="/assets/badges/transnow2.gif" />
+        <img src="/assets/badges/chrmevil.gif" />
+        <img src="/assets/badges/killmenow.gif" />
+        <a href="https://echometerain.github.io">
+          <img src="/assets/badges/echobadge.png" />
+        </a>
+        <a href="https://oktagonia.github.io/">
+          <img src="/assets/badges/hexa.png" />
+        </a>
       </footer>
     </div>
   </body>
