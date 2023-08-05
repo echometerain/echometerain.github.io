@@ -1,7 +1,7 @@
 title: Rain Blog
 description: Rain Blog
 tagline: Rain Blog
-url: echometerain.github.io
+url: https://echometerain.github.io
 author:
   name: echometerain
   picture: /assets/img/echo1.png
@@ -14,5 +14,8 @@ social:
 google_site_verification: gnpo7dZrF7ZMbLde35E_U_AQpw00bzJJ2qSWf20gIu0
 sass:
   sass_dir: _sass
+  style: compressed
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
