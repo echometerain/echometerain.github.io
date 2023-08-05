@@ -45,7 +45,9 @@
         <img src="/assets/badges/banner2.gif" />
         <img src="/assets/badges/bob.gif" />
         <img src="/assets/badges/alienow.gif" />
-        <img src="/assets/badges/cc-button.gif" />
+        <a href="javascript:crush()">
+          <img src="/assets/badges/cc-button.gif"
+        /></a>
         <img src="/assets/badges/sun.gif" />
         <img src="/assets/badges/thevoid.gif" />
         <img src="/assets/badges/transnow2.gif" />
@@ -58,6 +60,11 @@
           <img src="/assets/badges/hexa.png" />
         </a>
       </footer>
+      <script>
+        function crush() {
+          document.querySelector("body").style.textTransform = "lowercase";
+        }
+      </script>
     </div>
   </body>
 </html>
