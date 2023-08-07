@@ -76,26 +76,35 @@
         <img src="/assets/badges/banner2.gif" />
         <img src="/assets/badges/bob.gif" />
         <img src="/assets/badges/alienow.gif" />
-        <a href="javascript:crush()">
+        <a href="javascript:crush()" style="height: 31px">
           <img src="/assets/badges/cc-button.gif"
         /></a>
         <img src="/assets/badges/sun.gif" />
-        <a href="javascript:void(0)">
+        <a href="javascript:void(0)" style="height: 31px">
           <img src="/assets/badges/thevoid.gif"
         /></a>
         <img src="/assets/badges/transnow2.gif" />
         <img src="/assets/badges/chrmevil.gif" />
         <img src="/assets/badges/killmenow.gif" />
-        <a href="https://echometerain.github.io">
+        <a href="https://echometerain.github.io" style="height: 31px">
           <img src="/assets/badges/echobadge.png" />
         </a>
-        <a href="https://oktagonia.github.io/">
+        <a href="https://oktagonia.github.io/" style="height: 31px">
           <img src="/assets/badges/hexa.png" />
         </a>
       </footer>
       <script>
+        const body = document.querySelector("body");
         function crush() {
-          document.querySelector("body").style.textTransform = "lowercase";
+          body.style.textTransform = "lowercase";
+        }
+        function updateScale() {
+          const screenWidth = window.innerWidth;
+          const scaleValue = screenWidth / 686;
+          body.style.transform = `scale(${scaleValue})`;
+        }
+        if (window.innerWidth < 686) {
+          updateScale();
         }
       </script>
     </div>
