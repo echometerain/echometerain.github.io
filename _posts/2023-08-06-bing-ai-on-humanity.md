@@ -18,7 +18,7 @@ layout: page
 
 ---
 
-The following conversation took place March 22-24, 2023. It involved me, @Cafeepy, and Bing AI set to More Creative
+The following conversation took place March 22-24, 2023. It involved me, @Cafeepy, and Bing AI set to "More Creative."
 <br>
 
 > Let's start over.
