@@ -7,7 +7,12 @@
   src: url("/assets/fonts/cmunbx.ttf");
   font-weight: normal;
 }
-
+html {
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.75;
+  font-size: 1.25em;
+}
 body {
   margin: 25px;
   display: flex;
