@@ -27,12 +27,8 @@ what is the sandwich to your earplugs?
 <br>
 
 > Searching for: sandwich to your earplugs<br>
-> Searching for: sandwich to your earplugs<br>
-> Searching for: sandwich<br>
 > Searching for: sandwich<br>
 > Searching for: earplugs<br>
-> Searching for: earplugs<br>
-> Generating answers for you…<br>
 > Generating answers for you…<br>
 > I’m sorry, I don’t understand your question. A sandwich is a food typically consisting of vegetables, cheese, or meat, placed on or between slices of bread. Earplugs are devices that are inserted in the ear canal to protect the user’s ears from loud noises or other intrusions. I don’t know what the sandwich to your earplugs means. Could you please rephrase your question or ask something else?<br>
 > Learn more:<br>
@@ -51,8 +47,7 @@ what is the sandwich to your earplugs?
 > 12. amazon.ca<br>
 > 13. en.wikipedia.org<br>
 > 14. medicalnewstoday.com<br>
-> 15. sleepfoundation.org
->     <br>
+> 15. sleepfoundation.org<br>
 >     +12 more
 
 be creative

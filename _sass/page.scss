@@ -81,13 +81,15 @@ article {
   font-weight: bold;
   color: white;
   word-wrap: break-word;
-  padding: 1em;
+  padding: 1.5em;
   h1 {
     text-align: center;
     font-family: "CM", serif;
   }
-  p {
-    font-family: "Noto Sans", sans-serif;
+  p,
+  li,
+  th {
+    font-family: "Noto Sans", sans-serif !important;
     font-weight: normal;
     font-size: 14px;
   }
