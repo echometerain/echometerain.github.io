@@ -99,13 +99,16 @@
           body.style.textTransform = "lowercase";
         }
         function updateScale() {
-          const screenWidth = window.innerWidth;
+          const screenWidth =
+            window.innerWidth * Math.round(window.devicePixelRatio * 100);
+          if (screenWidth > 686) {
+            body.style.transform = `scale(1)`;
+            return;
+          }
           const scaleValue = screenWidth / 686;
           body.style.transform = `scale(${scaleValue})`;
         }
-        if (window.innerWidth < 686) {
-          updateScale();
-        }
+        updateScale();
       </script>
     </div>
   </body>
