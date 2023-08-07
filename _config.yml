@@ -1,10 +1,11 @@
 title: Rain Blog
-tagline: Rain Blog
-description: Rain Blog
+tagline: Esoteric Flummadiddleposting
+description: Esoteric Flummadiddleposting
 url: https://echometerain.github.io
 author:
   name: echometerain
   picture: /assets/img/echo1.png
+  url: https://echometerain.github.io
 logo: /assets/img/echo1.png
 image: /assets/img/embed.png
 twitter:
