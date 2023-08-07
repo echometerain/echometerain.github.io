@@ -1,9 +1,14 @@
 title: Rain Blog
+tagline: Rain Blog
+description: Rain Blog
 url: https://echometerain.github.io
 author:
   name: echometerain
   picture: /assets/img/echo1.png
 logo: /assets/img/echo1.png
+image: /assets/img/embed.png
+twitter:
+  card: summary_large_image
 social:
   name: echometerain
   links:
