@@ -5,45 +5,45 @@ layout: page
 ---
 
 <!-- https://x.st/spinning-diagrams-with-css/ -->
-<div id="cube" style="width: 40px; height: 80px">
-  <div style="transform: translate3d(0px, 0px, 20px)"><div>R</div></div>
-  <div style="transform: translate3d(40px, 0px, 20px)">
-    <div>A</div>
-  </div>
-  <div style="transform: translate3d(0px, 40px, 20px)">
-    <div>B</div>
-  </div>
-  <div style="transform: translate3d(40px, 40px, 20px)">
-    <div>L</div>
-  </div>
-  <div style="transform: translate3d(0px, 0px, -20px)">
+<div id="cube" style="width: 2.5em; height: 5em">
+  <div style="transform: translate3d(0em, 0em, 1.25em)"><div>R</div></div>
+  <div style="transform: translate3d(2.5em, 0em, 1.25em)">
     <div>N</div>
   </div>
-  <div style="transform: translate3d(40px, 0px, -20px)">
-    <div>I</div>
+  <div style="transform: translate3d(0em, 2.5em, 1.25em)">
+    <div>B</div>
   </div>
-  <div style="transform: translate3d(0px, 40px, -20px)">
+  <div style="transform: translate3d(2.5em, 2.5em, 1.25em)">
     <div>G</div>
   </div>
-  <div style="transform: translate3d(40px, 40px, -20px)">
+  <div style="transform: translate3d(0em, 0em, -1.25em)">
+    <div>A</div>
+  </div>
+  <div style="transform: translate3d(2.5em, 0em, -1.25em)">
+    <div>I</div>
+  </div>
+  <div style="transform: translate3d(0em, 2.5em, -1.25em)">
+    <div>L</div>
+  </div>
+  <div style="transform: translate3d(2.5em, 2.5em, -1.25em)">
     <div>O</div>
   </div>
 </div>
 <style>
   @keyframes spin {
     from {
-      transform: rotateX(0.1turn) rotateY(0turn);
+      transform: rotateX(0.1turn) rotateY(-1turn);
     }
     to {
-      transform: rotateX(0.1turn) rotateY(-1turn);
+      transform: rotateX(0.1turn) rotateY(0turn);
     }
   }
   @keyframes un-spin {
     from {
-      transform: rotateY(0turn);
+      transform: rotateY(1turn);
     }
     to {
-      transform: rotateY(1turn);
+      transform: rotateY(0turn);
     }
   }
   #cube {

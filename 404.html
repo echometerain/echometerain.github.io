@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>404</title>
+  </head>
+  <body>
+    <!-- https://x.st/spinning-diagrams-with-css/ -->
+    <div id="cube" style="width: 7.5em; height: 15em">
+      <div style="transform: translate3d(0em, 0em, 3.75em)"><div>R</div></div>
+      <div style="transform: translate3d(7.5em, 0em, 3.75em)">
+        <div>N</div>
+      </div>
+      <div style="transform: translate3d(0em, 7.5em, 3.75em)">
+        <div>B</div>
+      </div>
+      <div style="transform: translate3d(7.5em, 7.5em, 3.75em)">
+        <div>G</div>
+      </div>
+      <div style="transform: translate3d(0em, 0em, -3.75em)">
+        <div>A</div>
+      </div>
+      <div style="transform: translate3d(7.5em, 0em, -3.75em)">
+        <div>I</div>
+      </div>
+      <div style="transform: translate3d(0em, 7.5em, -3.75em)">
+        <div>L</div>
+      </div>
+      <div style="transform: translate3d(7.5em, 7.5em, -3.75em)">
+        <div>O</div>
+      </div>
+    </div>
+    <style>
+      @keyframes spin {
+        from {
+          transform: rotateX(0.1turn) rotateY(-1turn);
+        }
+        to {
+          transform: rotateX(0.1turn) rotateY(0turn);
+        }
+      }
+      @keyframes un-spin {
+        from {
+          transform: rotateY(1turn);
+        }
+        to {
+          transform: rotateY(0turn);
+        }
+      }
+      #cube {
+        font-size: larger;
+        transform-style: preserve-3d;
+        animation: spin 5s linear infinite;
+      }
+      #cube > div {
+        position: absolute;
+        transform-style: preserve-3d;
+      }
+      #cube > div > div {
+        animation: un-spin 5s linear infinite;
+      }
+      @font-face {
+        font-family: "CM";
+        src: url("/assets/fonts/cmunrm.ttf");
+      }
+      @font-face {
+        font-family: "CM Bold";
+        src: url("/assets/fonts/cmunbx.ttf");
+        font-weight: normal;
+      }
+      body {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -5em;
+        margin-top: -10em;
+      }
+      html {
+        background-color: black;
+        color: white;
+        font-family: "CM", serif;
+        font-weight: bold;
+      }
+    </style>
+  </body>
+</html>

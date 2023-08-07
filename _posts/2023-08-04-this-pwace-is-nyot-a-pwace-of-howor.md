@@ -17,6 +17,8 @@ layout: page
   }
 </style>
 
+\*.♡ꕤ⸜(⸝⸝º ^ º⸝⸝)⸝ꕤ♡.\*
+
 this pωace is a message~ \*:･ﾟ<br>
 and paωt of a system of messages~<br>
 pay attention to it~ <3
@@ -43,3 +45,5 @@ the fωorm of the danger is an emanyation of enωergy~
 the danger is unleashed onωy<br>
 if you substantioωoy distuωrb this pωace physicoωoy~<br>
 this pωace is best shuωunned and left unyanhabited.~ \*:･ﾟ
+
+\*.♡ꕤ⸜(⸝⸝º ^ º⸝⸝)⸝ꕤ♡.\*
