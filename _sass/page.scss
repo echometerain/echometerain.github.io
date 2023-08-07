@@ -33,6 +33,7 @@ header {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  image-rendering: smooth;
   #title {
     font-family: "CM Bold", serif;
     background-image: linear-gradient(45deg, #90d6ff, #ffffff);
