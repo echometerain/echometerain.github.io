@@ -1,11 +1,13 @@
 @font-face {
   font-family: "CM";
   src: url("/assets/fonts/cmunrm.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "CM Bold";
   src: url("/assets/fonts/cmunbx.ttf");
   font-weight: normal;
+  font-display: swap;
 }
 body {
   line-height: 1.75;
@@ -113,6 +115,10 @@ footer {
   max-width: 617px;
   align-items: center;
   justify-content: center;
+  img {
+    width: 88px;
+    height: 31px;
+  }
 }
 
 .center {
