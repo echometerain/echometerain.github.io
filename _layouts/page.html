@@ -34,7 +34,7 @@
     />
     <meta charset="UTF-8" />
     <meta content="#90d6ff" data-react-helmet="true" name="theme-color" />
-    <meta name="viewport" content="width=617, initial-scale=1" />
+    <meta name="viewport" content="width=667, initial-scale=1" />
     <meta name="twitter:card" content="summary_large_image" />
     <link
       rel="preload"
@@ -164,15 +164,15 @@
         }
         function updateScale() {
           const screenWidth =
-            window.innerWidth * Math.round(window.devicePixelRatio * 100);
-          if (screenWidth > 686) {
+            window.innerWidth * Math.round(window.devicePixelRatio);
+          if (screenWidth > 667) {
             body.style.transform = `scale(1)`;
             return;
           }
-          const scaleValue = screenWidth / 686;
+          const scaleValue = screenWidth / 667;
           body.style.transform = `scale(${scaleValue})`;
         }
-        updateScale();
+        // updateScale();
       </script>
     </div>
   </body>
