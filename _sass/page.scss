@@ -16,6 +16,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  image-rendering: auto;
   #content {
     width: 617px;
     border-radius: 20px;
@@ -35,9 +36,6 @@ header {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  img {
-    image-rendering: auto;
-  }
   #title {
     font-family: "CM Bold", serif;
     background-image: linear-gradient(45deg, #90d6ff, #ffffff);
@@ -117,7 +115,6 @@ footer {
   img {
     width: 88px;
     height: 31px;
-    image-rendering: auto;
   }
 }
 
@@ -164,7 +161,7 @@ $width: 16px;
   background-image: url("data:image/svg+xml,%3Csvg  transform='rotate(#{$rotate})' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6.86 6.86'%3E%3Cpath fill='%231d1d1b' d='M4.41 2.94v-.98h-.98V.98h-.98V0h-.98V6.86h.98v-.98h.98V4.9h.98v-.98h.98v-.98h-.98z'/%3E%3C/svg%3E");
 }
 
-::-webkit-scrollbar {
+html::-webkit-scrollbar {
   width: $width;
   background: red;
 
