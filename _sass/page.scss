@@ -145,3 +145,78 @@ footer {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+
+$darker: #373737;
+$dark: #888;
+$width: 16px;
+
+@mixin volume {
+  background-color: #c0c0c0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $darker;
+  border-top-color: #c0c0c0;
+  border-left-color: #c0c0c0;
+  box-shadow: inset 1px 1px #fff, inset -1px -1px $dark;
+}
+
+@mixin arrow($rotate) {
+  background-image: url("data:image/svg+xml,%3Csvg  transform='rotate(#{$rotate})' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6.86 6.86'%3E%3Cpath fill='%231d1d1b' d='M4.41 2.94v-.98h-.98V.98h-.98V0h-.98V6.86h.98v-.98h.98V4.9h.98v-.98h.98v-.98h-.98z'/%3E%3C/svg%3E");
+}
+
+::-webkit-scrollbar {
+  width: $width;
+  background: red;
+
+  &-corner {
+    background: #c0c0c0;
+  }
+
+  &-thumb {
+    @include volume;
+  }
+
+  &-track {
+    background-blend-mode: normal, difference, normal;
+    background-size: 3px 3px;
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.75),
+        rgba(255, 255, 255, 0.75)
+      ),
+      linear-gradient(to right, black 50%, white 50%),
+      linear-gradient(to bottom, black 50%, white 50%);
+  }
+
+  &-button {
+    @include volume;
+    &:start:decrement,
+    &:end:increment {
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: $width / 2;
+
+      &:active {
+        border: 1px solid $dark;
+        box-shadow: none;
+        background-position: ($width / 5) ($width / 5);
+      }
+
+      &:horizontal:decrement {
+        @include arrow("180");
+      }
+
+      &:horizontal:increment {
+        @include arrow("0");
+      }
+
+      &:vertical:decrement {
+        @include arrow("270");
+      }
+
+      &:vertical:increment {
+        @include arrow("90");
+      }
+    }
+  }
+}
