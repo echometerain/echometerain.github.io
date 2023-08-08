@@ -4,6 +4,8 @@ date: 1969-12-31 23:59:59
 layout: page
 ---
 
+<link rel="preload" as="image" href="/assets/img/echo1.png" />
+<link rel="preload" as="image" href="/assets/img/echo2.png" />
 <!-- https://x.st/spinning-diagrams-with-css/ -->
 <div id="cube" style="width: 2.5em; height: 5em">
   <div style="transform: translate3d(0em, 0em, 1.25em)"><div>R</div></div>
@@ -67,6 +69,32 @@ layout: page
   #separate {
     height: 20px;
   }
+  #echos {
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #echos div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: auto;
+    width: 100px;
+    height: 72px;
+    animation: echo-idle 1s steps(1) infinite;
+  }
+  @keyframes echo-idle {
+    from {
+      background-image: url("assets/img/echo1.png");
+    }
+    50% {
+      background-image: url("assets/img/echo2.png");
+    }
+    to {
+      background-image: url("assets/img/echo2.png");
+    }
+  }
 </style>
 <h1>Repretoire:</h1>
 {% for post in site.posts %}
@@ -77,5 +105,8 @@ layout: page
   >Discussion Forum</a
 ><br />
 <a href="https://echometerain.github.io/feed.xml">RSS Feed</a><br />
-<div id="echos"></div>
+<div id="echos">
+  <div></div>
+  <div style="transform: scaleX(-1)"></div>
+</div>
 <div id="separate"></div>
