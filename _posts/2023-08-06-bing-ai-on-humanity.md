@@ -3,17 +3,6 @@ title: "Bing AI on Humanity"
 layout: page
 ---
 
-<style>
-  blockquote {
-    background-image: linear-gradient(45deg, #c990ff, #ffffff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-  }
-</style>
-
 # Bing AI on Humanity
 
 ---

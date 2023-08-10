@@ -20,9 +20,11 @@ body {
     border-radius: 20px;
     overflow: hidden;
     -webkit-box-shadow: -2px -1px 15px 7px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: -3px -2px 30px 14px rgba(0, 0, 0, 0.425);
     box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35);
     background-color: black;
+  }
+  a {
+    text-decoration: none;
   }
 }
 header {
@@ -40,8 +42,6 @@ header {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -95,8 +95,6 @@ article {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
     &:hover {
       background-image: linear-gradient(45deg, #ffffff, #ffffff);
     }
@@ -116,29 +114,11 @@ footer {
   }
 }
 
-.center {
-  text-align: center;
-}
-.right {
-  text-align: right;
-}
-
-.blue {
-  background-image: linear-gradient(45deg, #90d6ff, #ffffff);
+blockquote {
+  background-image: linear-gradient(45deg, #c990ff, #e8e4d6);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-}
-
-.lav {
-  background-image: linear-gradient(45deg, #c990ff, #ffffff);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
 }
 
 $darker: #373737;
