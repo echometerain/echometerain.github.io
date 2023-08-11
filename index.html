@@ -127,9 +127,9 @@ layout: page
   const canvas = document.getElementById("love");
   const ctx = canvas.getContext("2d");
   const size = canvas.width;
-  const shakeSize = 4.1;
+  const shakeSize = 2;
   const loveNum = 350;
-  const kerning = 12.1;
+  const kerning = 12;
   const stdev = 50;
   const chars = ["L", "o", "v", "e"];
   const fontSize = 24;
@@ -145,9 +145,12 @@ layout: page
     ctx.fillStyle = "white";
     ctx.font = `bold ${fontSize}px CM`;
     for (let i = 0; i < loveNum; i++) {
+      const xOffWord = (Math.random() - 0.5) * shakeSize * 2;
+      const yOffWord = (Math.random() - 0.5) * shakeSize * 2;
       for (let j = 0; j < 4; j++) {
-        const xOff = (j - 1.5) * kerning + (Math.random() - 0.5) * shakeSize;
-        const yOff = (Math.random() - 0.5) * shakeSize;
+        const xOff =
+          (j - 1.5) * kerning + (Math.random() - 0.5) * shakeSize + xOffWord;
+        const yOff = (Math.random() - 0.5) * shakeSize + yOffWord;
         ctx.fillText(chars[j], loves[i][0] + xOff, loves[i][1] + yOff);
       }
     }
