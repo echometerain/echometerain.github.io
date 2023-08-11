@@ -9,6 +9,40 @@
   font-weight: normal;
   font-display: swap;
 }
+@mixin grad($type) {
+  @if $type == "blue" {
+    background-image: linear-gradient(45deg, #90d6ff, #ffffff);
+  } @else if $type == "lav" {
+    background-image: linear-gradient(45deg, #c990ff, #e8e4d6);
+  } @else if $type == "rainbow" {
+    background-image: linear-gradient(
+      90deg,
+      rgb(255, 0, 0) 0%,
+      rgb(255, 154, 0) 10%,
+      rgb(208, 222, 33) 20%,
+      rgb(79, 220, 74) 30%,
+      rgb(63, 218, 216) 40%,
+      rgb(47, 201, 226) 50%,
+      rgb(72, 157, 255) 60%,
+      rgb(158, 109, 255) 70%,
+      rgb(199, 45, 255) 80%,
+      rgb(251, 7, 217) 90%,
+      rgb(255, 0, 0) 100%
+    );
+  }
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.grad-blue {
+  @include grad("blue");
+}
+.grad-lav {
+  @include grad("lav");
+}
+.grad-rainbow {
+  @include grad("rainbow");
+}
 body {
   line-height: 1.75;
   display: grid;
@@ -38,17 +72,14 @@ header {
   justify-content: center;
   #title {
     font-family: "CM Bold", serif;
-    background-image: linear-gradient(45deg, #90d6ff, #ffffff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    @include grad("blue");
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 10px;
   }
 }
-#grad {
+#header-grad {
   height: 50px;
   margin-bottom: -50px;
   background-size: cover;
@@ -91,10 +122,7 @@ article {
     font-size: 14px;
   }
   a {
-    background-image: linear-gradient(45deg, #90d6ff, #ffffff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    @include grad("blue");
     &:hover {
       background-image: linear-gradient(45deg, #ffffff, #ffffff);
     }
@@ -115,10 +143,7 @@ footer {
 }
 
 blockquote {
-  background-image: linear-gradient(45deg, #c990ff, #e8e4d6);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  @include grad("lav");
 }
 
 $darker: #373737;

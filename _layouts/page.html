@@ -96,18 +96,14 @@
         background-attachment: fixed;
         background-size: cover;
       }
+      header {
+        background-image: url("/assets/img/fire.gif");
+        background-position: center;
+        background-attachment: local;
+      }
     </style>
     <div id="content">
       <header>
-        <style>
-          header {
-            background-image: url("/assets/img/fire.gif");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: local;
-          }
-        </style>
         <img src="/assets/img/skelly.gif" width="80px" height="80px" alt="" />
         <h1 id="title"><a href="/" aria-label="Rain Blog">Rain Blog</a></h1>
         <img
@@ -118,7 +114,7 @@
           alt=""
         />
       </header>
-      <div id="grad"></div>
+      <div id="header-grad"></div>
       <article>{{ content }}</article>
       <footer>
         <img src="/assets/badges/antinft.png" alt="" />
@@ -152,23 +148,12 @@
           <img src="/assets/badges/hexa.png" alt="" />
         </a>
       </footer>
-      <!-- <script>
+      <script>
         const body = document.querySelector("body");
         function crush() {
           body.style.textTransform = "lowercase";
         }
-        function updateScale() {
-          const screenWidth =
-            window.innerWidth * Math.round(window.devicePixelRatio);
-          if (screenWidth > 667) {
-            body.style.transform = `scale(1)`;
-            return;
-          }
-          const scaleValue = screenWidth / 667;
-          body.style.transform = `scale(${scaleValue})`;
-        }
-        updateScale();
-      </script> -->
+      </script>
     </div>
   </body>
 </html>

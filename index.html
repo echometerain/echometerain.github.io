@@ -95,6 +95,13 @@ layout: page
       background-image: url("assets/img/echo2.png");
     }
   }
+  #love {
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 200px;
+  }
 </style>
 <h1>Repretoire:</h1>
 {% for post in site.posts %}
@@ -105,6 +112,49 @@ layout: page
   >Discussion Forum</a
 ><br />
 <a href="https://echometerain.github.io/feed.xml">RSS Feed</a><br />
+<canvas id="love" width="400" height="400"> </canvas>
+<script>
+  // Standard Normal variate using Box-Muller transform.
+  function gaussian(mean, stdev) {
+    const u = 1 - Math.random(); // Converting [0,1) to (0,1]
+    const v = Math.random();
+    const z = Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v);
+    return z * stdev + mean;
+  }
+
+  const canvas = document.getElementById("love");
+  const ctx = canvas.getContext("2d");
+  const size = canvas.width;
+  const shakeSize = 4.1;
+  const loveNum = 350;
+  const kerning = 12.1;
+  const stdev = 50;
+  const chars = ["L", "o", "v", "e"];
+  const fontSize = 24;
+  let loves = new Array(loveNum);
+
+  for (let i = 0; i < loveNum; i++) {
+    loves[i] = new Array(2);
+    loves[i][0] = gaussian(size / 2, stdev);
+    loves[i][1] = gaussian(size / 2, stdev);
+  }
+  function drawLove() {
+    ctx.clearRect(0, 0, size, size);
+    ctx.fillStyle = "white";
+    ctx.font = `bold ${fontSize}px CM`;
+    for (let i = 0; i < loveNum; i++) {
+      for (let j = 0; j < 4; j++) {
+        const xOff = (j - 1.5) * kerning + (Math.random() - 0.5) * shakeSize;
+        const yOff = (Math.random() - 0.5) * shakeSize;
+        ctx.fillText(chars[j], loves[i][0] + xOff, loves[i][1] + yOff);
+      }
+    }
+    ctx.fillStyle = "black";
+    ctx.font = `bold ${fontSize * 4}px Serif`;
+    ctx.fillText("🜘", size / 2 - fontSize, size / 2 + fontSize);
+  }
+  setInterval(drawLove, 42);
+</script>
 <div id="echos">
   <div></div>
   <div style="transform: scaleX(-1)"></div>
