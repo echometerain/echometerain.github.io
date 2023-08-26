@@ -1,3 +1,1 @@
-# echometerain.github.io
-
-Rain Blog
+# Rain Blog
