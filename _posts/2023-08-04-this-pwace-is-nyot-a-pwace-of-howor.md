@@ -1,7 +1,7 @@
 ---
 title: "*.♡ꕤ this pwace is nyot a pwace of howor ꕤ♡.*"
 layout: page
-tag: Repretoire
+tag: Repertoire
 ---
 
 <style>

@@ -1,7 +1,7 @@
 ---
 title: "Bing AI on Humanity"
 layout: page
-tag: Repretoire
+tag: Repertoire
 ---
 
 # Bing AI on Humanity
