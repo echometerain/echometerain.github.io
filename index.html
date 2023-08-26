@@ -1,6 +1,5 @@
 ---
 title: "Rain Blog"
-date: 1969-12-31 23:59:59
 layout: page
 ---
 
@@ -105,10 +104,11 @@ layout: page
     height: 200px;
   }
 </style>
-<h1>Repretoire:</h1>
-{% for post in site.posts %}
+{% for tag in site.tags %}
+<h1 style="margin-bottom: 0">{{ tag[0] }}</h1>
+{% for post in tag[1] %}
 <a href="{{ post.url }}">{{ post.title }}</a><br />
-{% endfor %}
+{% endfor %} {% endfor %}
 <hr />
 <a href="https://github.com/echometerain/echometerain.github.io/discussions"
   >Discussion Forum</a

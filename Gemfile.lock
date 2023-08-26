@@ -255,6 +255,7 @@ DEPENDENCIES
   faraday-retry
   github-pages
   jekyll-feed
+  jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
   webrick (~> 1.8)
