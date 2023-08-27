@@ -20,7 +20,7 @@ tag: Repertoire
 
 > [Originally written: March 23, 2023](/assets/media/lilys-biosphere-original.txt)  
 > Last revised: August 26, 2023 <br />
-> Reading music:
+> Reading music (disable autoplay blocking):
 >
 > <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4266696895/size=small/bgcol=333333/linkcol=c990ff/transparent=true/" seamless><a href="https://bvdub.bandcamp.com/album/we-were-the-sun">We Were the Sun by bvdub | Brock Van Wey</a></iframe>
 
