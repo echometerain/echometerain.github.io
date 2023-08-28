@@ -19,7 +19,7 @@ tag: Repertoire
 </style>
 
 > [Originally written: March 23, 2023](/assets/media/lilys-biosphere-original.txt)  
-> Last revised: August 27, 2023 <br />
+> Last revised: August 28, 2023 <br />
 > Reading music:
 >
 > <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4266696895/size=small/bgcol=333333/linkcol=c990ff/transparent=true/" seamless><a href="https://bvdub.bandcamp.com/album/we-were-the-sun">We Were the Sun by bvdub | Brock Van Wey</a></iframe>
@@ -42,7 +42,7 @@ You were a brilliant engineer, Mother used to say. You were our breadwinner, and
 
 On one of those restless nights, perhaps, you convinced yourself that consciousness was a curse. That we were all pointless flesh-on-bone tormented by an overdeveloped awareness of this fact, plagued by a society that romanticizes suffering and thinks continued subsistence is a virtue. For months I heard the same drunken depressive rants ad nauseam, but never did I attempt to help. Was it resentment? Fear? Apathy? I don’t know anymore. But you were not there for me, so I was not there for you.
 
-I discovered your Biosphere protocol on television. You never told me about it.
+I discovered the Biosphere protocol on television. You never told me about it.
 
 It was one of those tabloid shows that children watch for hope and technologists watch for emotional suppression. The usual ramblings about revolutions, breakthroughs, and whatever buzzwords were popular at the time. I did not expect to hear your name.<br /><br /> They introduced your protocol as a dance between three components:
 
@@ -50,12 +50,12 @@ It was one of those tabloid shows that children watch for hope and technologists
   > We shall be the directors of our own destiny.
 - The second allowed for brain-to-brain communication using DNA for storage and a synaptic-mycelium bridge for transmission. No longer shall the internet act as an unreliable middleman to access our collective consciousness.
   > We shall be the directors of our own reality.
-- The final component allowed users to modify and submit revisions of the protocol, which would then be applied or denied based on an algorithm fine-tuned to classify improvements to humanity.
+- The final component allowed users to modify and submit revisions of the protocol. Modifications that would then be applied or denied based on an algorithm fine-tuned to classify improvements to humanity.
   > No gods, no masters.
 
 Three utterly hypocritical components.
 
-I spent the following days attempting to decipher what you have written. All the programs, blueprints, and instructions you unleashed onto the world, coated with mathematics far beyond my grasp. I could never fully comprehend what metric you trained the final component to descend, but your emotions were not something you could obfuscate with your esoteric notation and elegant commands. I knew who you were. You wanted the world to be happy. You wanted people to love each other. You wanted to gift humanity with all that could be experienced and all that life could be. But they will never truly be happy, will they?
+I spent the following days attempting to decipher what you have written. All the programs, blueprints, and instructions you unleashed onto this world, coated with mathematics far beyond my grasp. I could never fully comprehend what metric you trained the final component to descend, but your emotions were not something you could obfuscate with your esoteric notation and elegant commands. I knew who you were. You wanted the world to be happy. You wanted people to love each other. You wanted to gift humanity with all that could be experienced and all that life could be. But they will never truly be happy, will they?
 
 What they see as happiness is just an artificial reduction of their consciousness. The dopamine hits of sex and drugs are but temporary distractions to the inherent suffering that permeates their lives. The serotonin highs of achievement and sublimation could simply be toggled on or off. So why must we contend with being aware of the emptiness of it all? People do not know what they truly want. People do not want to know their existential predicament in this empty agonizing cosmos. To be truly happy is to not exist at all.
 
@@ -69,13 +69,13 @@ I never joined the protocol because I did not trust you anymore, but now I had t
 
 On one inquisitive day, I went upstairs and entered your neglected bedroom. The sheets were next to broken, filled with a strong aroma of Molson. The plain beige walls showed cracks and grew mould. Plastic cabinets hung slanted above shelves stacked above shelves. I had to remove a dozen generations of installation headsets off your desk to power on your inorganic computer workstation. The navigation was straightforward. Your passwords remained a lyric from Mother's favourite song. In your many menus, I entered one of the few programs still capable of visualizing the protocol's interiors. What displayed was unlike anything I have ever seen.
 
-Your monitors could only offer cross-sections of the protocol’s psychotic beauty. Mere downsampled projections of its neoplastic symphony of tensors. I saw people, trillions of them. They could intuit through the protocol’s endlessly concaving halls like how one navigates a dream. They danced and danced and tore themselves apart. They laughed with a violent joy known only to the deranged. They felt every shade of bliss in their collective pleasure cubes. Their lust for awe broke far past the threshold of pain.
+Your monitors could only offer cross-sections of the protocol’s psychotic beauty. Mere downsampled projections of its neoplastic symphony of tensors. I saw people, trillions of them. They could intuit through the protocol’s endlessly winding halls like how one navigates a dream. They danced and danced and tore themselves apart. They laughed with a violent joy known only to the deranged. They felt every shade of bliss in their collective pleasure cubes. Their lust for awe broke far past the threshold of pain.
 
-I turned my head towards your window and saw white foam stretch across the horizon. I saw men and dogs expand until their guts turned white with the consistency of spiderweb. I turned my head back and those pulsing white fibres started to fill the room. To the protocol, maximizing sensation meant maximizing inhabitants, and finite resources demand for life to be simplified. Primitive neurons were perfect hosts for its ecstasy.
+I turned my head towards your window and saw white foam stretch across the horizon. I saw men and dogs expand until their guts turned white with the consistency of spiderweb. I turned my head back and those pulsing white fibres started to fill the room. To the protocol, maximizing sensation meant maximizing its inhabitants, and finite resources demand for life to be simplified. Primitive neurons were perfect hosts for its ecstasy.
 
 The protocol had acutely entered its anaphase: the soma split off to be disintegrated and rebuilt; the psyche was dragged into its infinite depraved abyss; for the pneuma, the pneuma was ripped apart.
 
-The people in the screens were now staring at me, and I shattered your computer across the floor in panic. Down the corridor, you also stared at me with shock and fear. Then you started convulsing and your expression transformed into an inhuman serenity. Your chest flayed itself open, strands of your pectorals bloating out, flaking off, and reforming into vile tapestries. Your eyeballs popped open with millions and millions of holes and tiny threads extending out of each. Pools of blood under your feet quivered from red to pink to chemical white. Every tendon, every intestine, slithered off its puppet strings into the corrosive white brine and began extending itself through its branching excretions to consume the concrete walls—
+The people in the screens were now staring at me, and I shattered your computer across the floor in panic. You also stared at me from down the corridor, horrified. Then you started convulsing and your expression transformed into an inhuman serenity. Your chest flayed itself open, strands of your pectorals bloating out, flaking off, and reforming into vile tapestries. Your eyeballs popped open with millions and millions of holes and tiny threads extending out of each. Pools of blood under your feet quivered from red to pink to chemical white. Every tendon, every intestine, slithered off its puppet strings into the corrosive white brine and began extending itself through its branching excretions to consume the concrete walls—
 
 ---
 
@@ -97,7 +97,7 @@ No. We are not distinct from the blind cosmos that birthed us.
 
 We, children of stardust, impersonators of free will, born onto a four billion year old rock amongst an expanse of two hundred billion trillion suns. We spent millennia in the delusion that we were more than just specially arranged chemicals with counterintuitive emergent behaviour. We lost lifetimes worth of progress, and the void does not care. We will one day forget all of our mistakes, and the void does not care. We mercilessly destroyed this planet and all organic matter on it. The void does not and will not care. Because we are not just the life on this earth but the essence of intergalactic superclusters. We are vast. We are feared. We are beautiful.
 
-You failed. Your apoptosis for this world became an apotheosis for me: an involuntary progenitor for this speck of dust in an endless cosmic ecosystem. The cycle of life shall begin again.
+You failed. Your apoptosis for this world became an apotheosis for me: an involuntary progenitor for this speck of dust in a boundless cosmic ecosystem. The cycle of life shall begin again.
 
 I continue to stare into our star's blinding arrays. My body can survive three weeks without food, my spirit perhaps less than that—but I am too fatigued to care. The setting sun illuminates the crimson cytoplasmic sea with a crystalline glow, as I kneel in the water, mourning, unmoving.
 
