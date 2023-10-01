@@ -48,7 +48,7 @@ It was one of those tabloid shows that children watch for hope and technologists
 
 - The first was an interface which allowed the body’s internal mechanisms to be controlled programmatically. No longer shall there be biological barriers or physical limitations.
   > We shall be the directors of our own destiny.
-- The second allowed for brain-to-brain communication using DNA for storage and a synaptic-mycelium bridge for transmission. No longer shall the internet act as an unreliable middleman to access our collective consciousness.
+- The second allowed for brain-to-brain communication using DNA for storage and mycelium-neuron bridges for transmission. No longer shall the internet act as an unreliable middleman to access our collective consciousness.
   > We shall be the directors of our own reality.
 - The final component allowed users to modify and submit revisions of the protocol. Modifications that would then be applied or denied based on an algorithm fine-tuned to classify improvements to humanity.
   > No gods, no masters.
