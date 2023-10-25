@@ -72,6 +72,7 @@ layout: page
     width: 450px;
     height: 72px;
     margin: auto;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -98,10 +99,13 @@ layout: page
   }
   #love {
     margin: 10px;
-    margin-top: 20px;
-    margin-bottom: -10px;
+    margin-top: 40px;
+    margin-bottom: -20px;
     width: 200px;
     height: 200px;
+  }
+  .sigil {
+    margin: -10px;
   }
 </style>
 {% for tag in site.tags %}
@@ -156,10 +160,36 @@ layout: page
     }
     ctx.fillStyle = "black";
     ctx.font = `bold ${fontSize * 4}px Serif`;
-    ctx.fillText("🜘", size / 2 - fontSize, size / 2 + fontSize);
+    img = new Image();
+    img.src = "/assets/sigils/0.png";
+    ctx.drawImage(img, size / 2 - 50, size / 2 - 50);
   }
   setInterval(drawLove, 42);
 </script>
+<div class="sigil">
+  <img src="/assets/sigils/2.png" width="50" height="50" alt="" />
+  <img src="/assets/sigils/3.png" width="50" height="50" alt="" />
+</div>
+<div class="sigil">
+  <img src="/assets/sigils/4.png" width="50" height="50" alt="" />
+  <img src="/assets/sigils/5.png" width="50" height="50" alt="" />
+  <img src="/assets/sigils/6.png" width="50" height="50" alt="" />
+</div>
+<div class="sigil">
+  <img src="/assets/sigils/7.png" width="50" height="50" alt="" />
+  <img src="/assets/sigils/8.png" width="50" height="50" alt="" />
+  <img src="/assets/sigils/9.png" width="50" height="50" alt="" />
+  <img src="/assets/sigils/10.png" width="50" height="50" alt="" />
+</div>
+<div class="sigil">
+  <img src="/assets/sigils/11.png" width="50" height="50" alt="" />
+  <img src="/assets/sigils/12.png" width="50" height="50" alt="" />
+  <img src="/assets/sigils/13.png" width="50" height="50" alt="" />
+</div>
+<div class="sigil">
+  <img src="/assets/sigils/14.png" width="50" height="50" alt="" />
+  <img src="/assets/sigils/15.png" width="50" height="50" alt="" />
+</div>
 <div id="echos">
   <div></div>
   <div style="transform: scaleX(-1)"></div>
