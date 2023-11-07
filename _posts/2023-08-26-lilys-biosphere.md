@@ -79,7 +79,7 @@ The people in the screens were now staring at me, and I shattered your computer 
 
 ---
 
-The closet door creaks open, exposing the room like a rolling shutter. A creature grabs ahold of my skull and smashes my back against the wall. Its appendage slowly pierces my forehead as I remember that this abomination used to be you. Viscus blood flows into my tear ducts and slowly down my face.
+The closet door creaks open, exposing the room like a rolling shutter. A creature grabs ahold of my skull and smashes my back against the wall. Its appendage slowly pierces my forehead as I remember that this abomination used to be you. Viscous blood flows into my tear ducts and slowly down my face.
 
 You collapse. Your arm could not penetrate past my skin.
 
